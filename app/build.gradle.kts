@@ -48,8 +48,12 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.retrofit.core)
     implementation(libs.retrofit.gson)
+    implementation(libs.androidx.viewpager2)
+    androidTestImplementation(libs.androidx.espresso.contrib)
 
-    }
+
+
+}
 
 
 
